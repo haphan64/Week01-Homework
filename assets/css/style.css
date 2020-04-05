@@ -1,13 +1,16 @@
+/* Include any border and padding in the values specified for an element's width and height. Set all elements to have 0 padding and margin. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Set background color for body section*/
 body {
     background-color: #d9dcd6;
 }
 
+/* Set padding, font, background color, and text color for header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* Put header in block */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Give "SEO" a different text color */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Set padding, margin, positioning, font family and font size for header */
 header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ header div {
     font-size: 20px;
 }
 
+/* Set unordered list style to none */
 header div ul {
     list-style-type: none;
 }
 
+/* Set list in header as block with margin */
 header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Set text color for hyperlinks */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Font size for paragraph */
 p {
     font-size: 16px;
 }
 
+/* Set background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,37 @@ p {
     background-position: center;
 }
 
+/* Positioning */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Positioning */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Set width, display, margin for content class */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Set max height for images in content class */
+.content img {
+    max-height: 200px;
+}
+
+/* Set margin botto and font size for h2 in content class */
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Set margin, padding, height, font-family, background color, text color for content-detail. Make text overflow.*/
 .content-detail {
     margin-bottom: 20px;
     padding: 50px;
@@ -85,14 +111,7 @@ p {
     overflow: auto;
 }
 
-.content img {
-    max-height: 200px;
-}
-
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* Set margin, padding, width, height, font family, background color, positioning for benefits class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -104,22 +123,25 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-detail {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* Set margin, align text for h3 in benefits class */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Set diplay, margin, width for images in benefits class */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* Set margin bottom and text color for benefit-detail */
+.benefit-detail {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
 
+/* Set padding, font family, align text, clear positioning for footer */
 footer {
     padding: 30px;
     clear: both;
@@ -127,6 +149,7 @@ footer {
     text-align: center;
 }
 
+/* Set font size for h2 in footer */
 footer h2 {
     font-size: 20px;
 }
